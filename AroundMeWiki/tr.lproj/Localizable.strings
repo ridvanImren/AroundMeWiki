@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  AroundMeWiki
+
+  Created by Rıdvan İmren on 20.01.2022.
+  
+*/
+"map" = "Harita";
+
+"settings_language" = "Dil";
+"settings_language_footer" = "Arayüz dilini seçin.";

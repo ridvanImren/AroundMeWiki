@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  AroundMeWiki
+
+  Created by Rıdvan İmren on 20.01.2022.
+  
+*/
+"map" = "Map";
+
+"settings_language" = "Language";
+"settings_language_footer" = "Choose interface language.";
