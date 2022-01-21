@@ -22,7 +22,6 @@
 		F3A5351E279956BA000A8EDC /* MapTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A5351D279956BA000A8EDC /* MapTabView.swift */; };
 		F3A5352027995D05000A8EDC /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A5351F27995D05000A8EDC /* Color-Theme.swift */; };
 		F3A53528279990E6000A8EDC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A53527279990E6000A8EDC /* SettingsView.swift */; };
-		F3BF74A5279B5EB800716CC5 /* App Images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3BF74A4279B5EB800716CC5 /* App Images.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,7 +41,6 @@
 		F3A5351D279956BA000A8EDC /* MapTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTabView.swift; sourceTree = "<group>"; };
 		F3A5351F27995D05000A8EDC /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
 		F3A53527279990E6000A8EDC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		F3BF74A4279B5EB800716CC5 /* App Images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "App Images.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				F3A535062795F111000A8EDC /* AroundMeWiki */,
-				F3BF74A3279B5E9000716CC5 /* Resources */,
 				F3A535052795F111000A8EDC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,14 +98,6 @@
 				F3A5350E2795F112000A8EDC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		F3BF74A3279B5E9000716CC5 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				F3BF74A4279B5EB800716CC5 /* App Images.jpg */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,7 +160,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3A5350F2795F112000A8EDC /* Preview Assets.xcassets in Resources */,
-				F3BF74A5279B5EB800716CC5 /* App Images.jpg in Resources */,
 				F3A5350C2795F112000A8EDC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
