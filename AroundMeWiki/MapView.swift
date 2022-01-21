@@ -25,11 +25,42 @@ struct MapView: View {
                         latitude: CLLocationDegrees(page.coordinates!.first!.lat),
                         longitude: CLLocationDegrees(page.coordinates!.first!.lon)) ) {
                             VStack {
-                                Image(systemName: viewModel.mapRegion.mapPin)
-                                    .resizable()
-                                    .scaledToFit()
-                                    .foregroundColor(.blue)
-                                    .frame(width:32, height: 32)
+//                                Image(systemName: viewModel.mapRegion.mapPin)
+//                                    .resizable()
+//                                    .scaledToFit()
+//                                    .foregroundColor(.blue)
+//                                    .frame(width:32, height: 32)
+                                Group {
+                                    if let thumbnail = page.thumbnail?.source {
+                                        if let thumbnailURL = URL(string: thumbnail) {
+                                            AsyncImage(url: thumbnailURL) { image in
+                                                image
+                                                    .resizable()
+                                                    .scaledToFit()
+                                                    .frame(width:32, height: 32)
+                                                    .clipShape(Capsule())
+                                                    .overlay(
+                                                        Capsule()
+                                                            .strokeBorder(.white, lineWidth: 1))
+
+                                            } placeholder: {
+                                                Image("Wiki")
+                                                    .resizable()
+                                                    .scaledToFit()
+                                                    .frame(width:32, height: 32)
+                                                    .clipShape(Capsule())
+                                            }
+                                            
+                                        }
+                                    } else {
+                                        Image("Wiki")
+                                            .resizable()
+                                            .scaledToFit()
+                                            .frame(width:32, height: 32)
+                                            .clipShape(Capsule())
+                                        
+                                    }
+                                }
                             }
                             .onTapGesture{
                                 viewModel.selectedPage = page

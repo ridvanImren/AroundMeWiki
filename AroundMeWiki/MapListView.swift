@@ -28,7 +28,11 @@ struct MapListView: View {
                                                 image
                                                     .resizable()
                                                     .scaledToFit()
-                                                
+                                                    .frame(width:80, height: 80)
+                                                    .clipShape(Capsule())
+                                                    .overlay(
+                                                        Capsule()
+                                                            .strokeBorder(.white, lineWidth: 1))
                                             } placeholder: {
                                                 ProgressView()
                                             }
@@ -38,6 +42,12 @@ struct MapListView: View {
                                         Image("Wiki")
                                             .resizable()
                                             .scaledToFit()
+                                            .frame(width:80, height: 80)
+                                            .clipShape(Capsule())
+                                            .overlay(
+                                                Capsule()
+                                                    .strokeBorder(.white, lineWidth: 1))
+
                                         
                                     }
                                 }
