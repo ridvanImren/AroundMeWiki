@@ -25,11 +25,6 @@ struct MapView: View {
                         latitude: CLLocationDegrees(page.coordinates!.first!.lat),
                         longitude: CLLocationDegrees(page.coordinates!.first!.lon)) ) {
                             VStack {
-//                                Image(systemName: viewModel.mapRegion.mapPin)
-//                                    .resizable()
-//                                    .scaledToFit()
-//                                    .foregroundColor(.blue)
-//                                    .frame(width:32, height: 32)
                                 Group {
                                     if let thumbnail = page.thumbnail?.source {
                                         if let thumbnailURL = URL(string: thumbnail) {
