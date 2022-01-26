@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+ 
 class Result: Codable {
     let query: Query
 }

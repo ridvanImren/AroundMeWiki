@@ -7,9 +7,6 @@
 
 import SwiftUI
 import MapKit
-import CoreLocation
-import CoreLocationUI
-
 
 struct MapView: View {
     

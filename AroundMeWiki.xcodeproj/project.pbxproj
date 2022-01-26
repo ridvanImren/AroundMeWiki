@@ -54,6 +54,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F397C35527A1F5BF0079DBF1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F3A5351D279956BA000A8EDC /* MapTabView.swift */,
+				F3A535092795F111000A8EDC /* MapView.swift */,
+				F3A5351B27994FF2000A8EDC /* MapListView.swift */,
+				F3A53519279600E9000A8EDC /* DetailView.swift */,
+				F3A53527279990E6000A8EDC /* SettingsView.swift */,
+				F3A5351F27995D05000A8EDC /* Color-Theme.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F397C35627A1F5E70079DBF1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F36F52882799C45C00A5F09D /* MapViewModel.swift */,
+				F36F528E2799F52500A5F09D /* MapListViewModel.swift */,
+				F36F5290279A0B9500A5F09D /* DetailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F397C35727A1F6090079DBF1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F3A535172795F50C000A8EDC /* Extensions.swift */,
+				F3A535152795F21F000A8EDC /* Results.swift */,
+				F36F528C2799D3AD00A5F09D /* ResultsClass.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F3A534FB2795F111000A8EDC = {
 			isa = PBXGroup;
 			children = (
@@ -74,18 +107,9 @@
 			isa = PBXGroup;
 			children = (
 				F3A535072795F111000A8EDC /* AroundMeWikiApp.swift */,
-				F3A5351D279956BA000A8EDC /* MapTabView.swift */,
-				F3A535092795F111000A8EDC /* MapView.swift */,
-				F36F52882799C45C00A5F09D /* MapViewModel.swift */,
-				F3A5351B27994FF2000A8EDC /* MapListView.swift */,
-				F36F528E2799F52500A5F09D /* MapListViewModel.swift */,
-				F3A53519279600E9000A8EDC /* DetailView.swift */,
-				F36F5290279A0B9500A5F09D /* DetailViewModel.swift */,
-				F3A53527279990E6000A8EDC /* SettingsView.swift */,
-				F3A535172795F50C000A8EDC /* Extensions.swift */,
-				F3A535152795F21F000A8EDC /* Results.swift */,
-				F36F528C2799D3AD00A5F09D /* ResultsClass.swift */,
-				F3A5351F27995D05000A8EDC /* Color-Theme.swift */,
+				F397C35527A1F5BF0079DBF1 /* Views */,
+				F397C35627A1F5E70079DBF1 /* ViewModels */,
+				F397C35727A1F6090079DBF1 /* Model */,
 				F3A5350B2795F112000A8EDC /* Assets.xcassets */,
 				F3A5350D2795F112000A8EDC /* Preview Content */,
 			);
