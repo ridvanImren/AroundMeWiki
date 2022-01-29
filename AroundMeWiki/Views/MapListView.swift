@@ -52,22 +52,25 @@ struct MapListView: View {
                                     }
                                 }
                                 .frame(width:80, height: 80)
+                                .padding(5)
                                 .clipShape(Circle())
                                 
                                 Text(page.title)
                                     .font(.headline)
                                     .foregroundColor(.white)
                                     .frame(maxWidth: .infinity)
+                                    
                             }
-                            
                             .background(.lightBackground)
+
+                            .clipShape(RoundedRectangle(cornerRadius: 5))
                         }
                     }
                 }
             }
             .toolbar {
                 ToolbarItem(placement: .principal){
-                    Text("Nearby Places")
+                    Text("Nearby Wikipedia Pages")
                         .font(.headline)
                 }
             }

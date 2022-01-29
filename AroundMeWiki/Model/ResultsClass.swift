@@ -41,20 +41,6 @@ class Page: ObservableObject, Codable, Comparable, Identifiable {
         lhs.title == rhs.title
     }
 
-//
-//    static let example = Page(pageid: 123,
-//                              title: "Göksu Parkı",
-//                              terms: ["description": ["Description", " " ]],
-//                              extract: "Extract Information",
-//                              thumbnail: Thumbnail(source: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Ankara_by_night_2013.jpg/500px-Ankara_by_night_2013.jpg", width: 500, height: 325), coordinates: [Coordinates(lat: 39.9902416, lon: 32.6482333)])
-//
-//
-//    static let example = Page(pageid: 123,
-//                              title: "Göksu Parkı",
-//                              terms: ["description": ["Description", " " ]],
-//                              thumbnail: Thumbnail(source: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Ankara_by_night_2013.jpg/500px-Ankara_by_night_2013.jpg", width: 500, height: 325))
-
-//case pageid, title, terms, extract, description, thumbnail, coordinates
     init() { }
 
     func encode(to encoder: Encoder) throws {
